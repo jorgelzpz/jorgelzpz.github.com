@@ -23,9 +23,7 @@ h1 a:hover {
   color: #000 !important; }
 
 #pagetitle {
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #e9d558; }
+  margin-bottom: 20px; }
 
 #footer {
   margin-top: 20px;
@@ -33,6 +31,14 @@ h1 a:hover {
   padding-top: 10px;
   color: #aaa;
   text-align: center; }
+
+#sections {
+  font-size: 90%;
+  color: #bbb;
+  border-bottom: 1px solid #e9d558; }
+  #sections a, #sections a:visited {
+    color: #434D53 !important;
+    padding-right: 2px; }
 
 ul.otherprofiles li {
   font-size: 130%; }
