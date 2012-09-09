@@ -11,8 +11,7 @@ h1, h2, h3, h4, h5 {
 a,
 a:active {
   text-decoration: none;
-  color: #0e8d94;
-  font-weight: bold; }
+  color: #0e8d94; }
 
 a:visited,
 a:hover {
