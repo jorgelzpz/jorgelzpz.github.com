@@ -8,7 +8,7 @@
   <!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
-  <title>{% if page.title %}page.title | {% endif %} Jorge López Pérez</title>
+  <title>{% if page.title %}{{page.title}} | {% endif %} Jorge López Pérez</title>
   <meta name="description" content="Jorge López Pérez webpage">
   <meta name="author" content="Jorge López Pérez">
 
@@ -19,7 +19,7 @@
   <!-- CSS
   ================================================== -->
   <link
-  href="http://fonts.googleapis.com/css?family=Open+Sans:400,600|Nobile:400,700"
+  href="http://fonts.googleapis.com/css?family=Open+Sans:400,600|Yanone+Kaffeesatz:400,700"
   rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="/css/base.css">
   <link rel="stylesheet" href="/css/skeleton.css">
@@ -46,13 +46,12 @@
   ================================================== -->
 
   <div class="container">
-    <div class="sixteen columns">
+    <div class="sixteen columns" id="pagetitle">
       <h1 class="remove-bottom"><a href="/">Jorge López Pérez</a></h1>
-      <hr />
     </div>
     {{ content }}
 
-    <div class="sixteen columns footer">
+    <div class="sixteen columns" id="footer">
      2004-2012
     </div>
   </div><!-- container -->

@@ -1,10 +1,12 @@
 body {
   font-family: 'Open Sans', sans-serif;
   border-top: 5px solid #ffab07;
-  padding-top: 40px; }
+  padding-top: 40px;
+  color: #666; }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Nobile', sans-serif; }
+  color: #000;
+  font-family: 'Yanone Kaffeesatz', sans-serif; }
 
 a,
 a:active {
@@ -21,9 +23,14 @@ h1 a:visited,
 h1 a:hover {
   color: #000 !important; }
 
-div.footer {
+#pagetitle {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e9d558; }
+
+#footer {
   margin-top: 20px;
-  border-top: 1px solid #72ad75;
+  border-top: 1px solid #e9d558;
   padding-top: 10px;
   color: #aaa;
   text-align: center; }

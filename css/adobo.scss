@@ -1,15 +1,17 @@
 $blue: #FFAB07;
-$light_blue: #72AD75;
+$lines_color: #E9D558;
 $link: #0E8D94;
 
 body {
   font-family: 'Open Sans', sans-serif;
   border-top: 5px solid $blue;
   padding-top: 40px;
+  color: #666;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Nobile', sans-serif;
+  color: #000;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 a,
@@ -30,9 +32,15 @@ h1 a:hover {
   color: #000 !important;
 }
 
-div.footer {
+#pagetitle {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid $lines_color;
+}
+
+#footer {
   margin-top: 20px;
-  border-top: 1px solid $light_blue;
+  border-top: 1px solid $lines_color;
   padding-top: 10px;
   color: #aaa;
   text-align: center;
