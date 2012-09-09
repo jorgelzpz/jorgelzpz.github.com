@@ -1,0 +1,52 @@
+$blue: #FFAB07;
+$light_blue: #72AD75;
+$link: #0E8D94;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  border-top: 5px solid $blue;
+  padding-top: 40px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Nobile', sans-serif;
+}
+
+a,
+a:active {
+  text-decoration: none;
+  color: $link;
+  font-weight: bold;
+}
+
+a:visited,
+a:hover {
+  color: darken($link, 10%) !important;
+}
+
+h1 a,
+h1 a:visited,
+h1 a:hover {
+  color: #000 !important;
+}
+
+div.footer {
+  margin-top: 20px;
+  border-top: 1px solid $light_blue;
+  padding-top: 10px;
+  color: #aaa;
+  text-align: center;
+}
+
+ul.otherprofiles li {
+  font-size: 130%;
+
+  img {
+    margin-right: 5px;
+  }
+}
+
+tt {
+  font-family: Consolas, Monaco, monospace;
+}
+
