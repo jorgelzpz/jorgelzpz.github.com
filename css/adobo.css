@@ -1,6 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  border-top: 5px solid #ffab07;
+  border-top: 5px solid #3a2be0;
   padding-top: 40px;
   color: #666; }
 
@@ -11,11 +11,11 @@ h1, h2, h3, h4, h5 {
 a,
 a:active {
   text-decoration: none;
-  color: #0e8d94; }
+  color: #db1750; }
 
 a:visited,
 a:hover {
-  color: #0a6165 !important; }
+  color: #ad123f !important; }
 
 h1 a,
 h1 a:visited,
@@ -27,7 +27,7 @@ h1 a:hover {
 
 #footer {
   margin-top: 20px;
-  border-top: 1px solid #e9d558;
+  border-top: 1px solid #dddddd;
   padding-top: 10px;
   color: #aaa;
   text-align: center; }
@@ -35,15 +35,13 @@ h1 a:hover {
 #sections {
   font-size: 90%;
   color: #bbb;
-  border-bottom: 1px solid #e9d558; }
+  border-bottom: 1px solid #dddddd; }
   #sections a, #sections a:visited {
-    color: #434D53 !important;
+    color: #434d53 !important;
     padding-right: 2px; }
 
-ul.otherprofiles li {
-  font-size: 130%; }
-  ul.otherprofiles li img {
-    margin-right: 5px; }
+ul.otherprofiles li img {
+  margin-right: 5px; }
 
 tt {
   font-family: Consolas, Monaco, monospace; }

@@ -1,10 +1,11 @@
-$main_color: #FFAB07;
-$lines_color: #E9D558;
-$link: #0E8D94;
+$main: #3A2BE0;
+$link: #DB1750;
+$lines: #ddd;
+$sections: #434D53;
 
 body {
   font-family: 'Open Sans', sans-serif;
-  border-top: 5px solid $main_color;
+  border-top: 5px solid $main;
   padding-top: 40px;
   color: #666;
 }
@@ -37,7 +38,7 @@ h1 a:hover {
 
 #footer {
   margin-top: 20px;
-  border-top: 1px solid $lines_color;
+  border-top: 1px solid $lines;
   padding-top: 10px;
   color: #aaa;
   text-align: center;
@@ -46,17 +47,15 @@ h1 a:hover {
 #sections {
   font-size: 90%;
   color: #bbb;
-  border-bottom: 1px solid $lines_color;
+  border-bottom: 1px solid $lines;
 
   a, a:visited {
-    color: #434D53 !important;
+    color: $sections !important;
     padding-right: 2px;
   }
 }
 
 ul.otherprofiles li {
-  font-size: 130%;
-
   img {
     margin-right: 5px;
   }
