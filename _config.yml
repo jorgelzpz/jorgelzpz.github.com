@@ -1,6 +1,18 @@
-markdown: rdiscount
-pygments: true
-permalink: /posts/:title
-auto: true
-rdiscount:
-  extensions: [smart]
+name: Jorge López
+description: Code and sysadmin stuff
+meta_description: "Jorge López. Code and sysadmin"
+
+logo: false
+paginate: 5
+baseurl: /
+google_analytics: 'UA-XXXXXXXX-X'
+domain_name: 'jorgelp.com'
+permalink: /:year/:month/:title/
+
+about: about/
+github: https://github.com/adobo/
+
+# Details for the RSS feed generator
+url:            'http://jorgelp.com'
+author:         'Jorge López Pérez'
+email:          'jorge@jorgelp.com'
