@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Upgrading a large ownCloud instance"
-date:   2015-03-26 19:17
+date:   2015-06-29 20:49
 ---
 
 These last weeks I had to upgrade a large [ownCloud](http://www.owncloud.org)
