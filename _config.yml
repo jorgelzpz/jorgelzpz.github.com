@@ -1,13 +1,13 @@
 name: Jorge López
-description: Code and sysadmin stuff
-meta_description: "Jorge López. Code and sysadmin"
+description: Sysadmin, DevOps and code
+meta_description: "Jorge López. DevOps, sysadmin, Linux, PHP, coding"
 
 logo: false
 paginate: 5
 baseurl: /
-google_analytics: 'UA-XXXXXXXX-X'
 domain_name: 'jorgelp.com'
 permalink: /:year/:month/:title/
+gems: [jekyll-paginate]
 
 about: about/
 github: https://github.com/adobo/
