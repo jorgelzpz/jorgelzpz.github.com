@@ -12,13 +12,9 @@ System administration and programming are both my profession and my hobby. I hav
 href="{{ site.github }}">GitHub account</a>, where you will find some of my work on Free Software.
 
 I have been using GNU/Linux systems for a long time, and I love fiddling with other *nix flavours as well. `zsh` and `vim`
-are my main working tools. PHP is generally my language of choice for web backends.
+are my CLI working tools. bash and Python are my go-to scripting languages, and PHP is generally my language of choice for web backends.
 
 <a name="contact"></a>
 You can contact me at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
 
 You can also find me at twitter: <a href="https://twitter.com/jorgelzpz/">@jorgelzpz</a>.
-
-I'm available for consulting, so feel free to contact me and tell me your needs.  I have worked with a variety of
-systems, so my skill set covers a wide range of technologies, and I'm willing to learn new things every day.
-
