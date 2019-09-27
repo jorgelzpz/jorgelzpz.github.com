@@ -4,7 +4,6 @@ meta_description: "Jorge López. DevOps, sysadmin, Linux, PHP, coding"
 
 logo: false
 paginate: 5
-baseurl: /
 domain_name: 'jorgelp.com'
 permalink: /:year/:month/:title/
 plugins: [jekyll-paginate, jekyll-feed]

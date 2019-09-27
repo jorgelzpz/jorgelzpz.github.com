@@ -4,7 +4,7 @@ title: About me
 cover: false
 ---
 
-<img src="{{ site.baseurl }}assets/images/photo.jpg">
+<img src="{{ "assets/images/photo.jpg" | relative_url }}">
 
 Hi! I'm Jorge López Pérez. I live in Spain.
 

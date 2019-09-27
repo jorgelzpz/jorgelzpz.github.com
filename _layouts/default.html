@@ -24,7 +24,7 @@
     {{ content }}
     <footer class="site-footer clearfix">
       <section class="copyright">
-        <a href="{{ site.baseurl }}">{{ site.name }}</a> &copy; 
+          <a href="{{ "/" | relative_url }}">{{ site.name }}</a> &copy; 
         <script type="text/javascript">
             document.write(new Date().getFullYear());
         </script>
@@ -34,9 +34,9 @@
         <a href="http://github.com/rosario/kasper">Kasper theme</a>
       </section>
     </footer>
-    <script type="text/javascript" src="/assets/js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="/assets/js/index.js"></script>
+    <script type="text/javascript" src="{{ "/assets/js/jquery-1.11.1.min.js" | relative_url }}"></script>
+    <script type="text/javascript" src="{{ "/assets/js/jquery.fitvids.js" | relative_url }}"></script>
+    <script type="text/javascript" src="{{ "/assets/js/index.js" | relative_url }}"></script>
 
 </body>
 </html>
