@@ -7,7 +7,7 @@ paginate: 5
 baseurl: /
 domain_name: 'jorgelp.com'
 permalink: /:year/:month/:title/
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-feed]
 
 about: about/
 github: https://github.com/adobo/
