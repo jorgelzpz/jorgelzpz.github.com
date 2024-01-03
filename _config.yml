@@ -1,17 +1,23 @@
 name: Jorge López
-description: Sysadmin, DevOps and code
-meta_description: "Jorge López. DevOps, sysadmin, Linux, PHP, coding"
+description: Simple things lover
+meta_description: "Jorge López. Infrastructure, DevOps, sysadmin, Linux, BSD, OpenBSD, Go, CI, CD"
 
-logo: false
+logo: true
 paginate: 5
 domain_name: 'jorgelp.com'
-permalink: /:year/:month/:title/
+permalink: /:title/
 plugins: [jekyll-paginate, jekyll-feed]
 
 about: about/
-github: https://github.com/adobo/
+github: https://github.com/jorgelzpz/
 
 # Details for the RSS feed generator
 url:            'http://jorgelp.com'
-author:         'Jorge López Pérez'
+author:         'Jorge López'
 email:          'jorge@jorgelp.com'
+
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .bundle
