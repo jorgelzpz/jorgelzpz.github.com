@@ -41,6 +41,8 @@ But what if other colleagues use low quality headsets/microphones? Well, I canno
 
 ### My current setup
 
+<img src="/assets/images/audio/current_setup.jpg" alt="My current setup" />
+
 Improving audio quality is not that expensive, and in fact my setup is somehow cheap. I started with the following items:
 
 | Item | Description | Est. price |
