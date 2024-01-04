@@ -1,0 +1,63 @@
+---
+layout: post
+title: "My audio setup"
+date: 2024-01-04
+---
+
+I have been working from home since 2015. I had to move with my wife to a small city, but I was able to keep my job at the University and regularly travel to our home town to meet my colleagues. However in 2017 started working for a company located in the UK and videoconferences became very common in my day to day.
+
+I recall having a hard time during the first week. I struggled to understand and make myself understood for some time with my new colleagues. The reasons were mainly two:
+
+- The variety of accents. I was used to the American accent, but I was suddenly talking to people with British and Indian accents. Sometimes I could barely get a hint of what they were talking about. My accent was probably not the best back then.
+- The sound quality was really bad, probably in both directions. This made everything even harder.
+
+### My old setup
+
+I was using a very simple [Logitech H340 headset](https://www.logitech.com/es-es/products/headsets/h340-usb-pc-noise-cancelling-mic.981-000475.html). 
+
+<img src="/assets/images/audio/logitech_h340.jpg" alt="Logitech H340" />
+
+I used this headset for some time, and I got used to low quality audio when I had a meeting. Everyone used similar headsets and it was kind of a standard.
+
+Fast forward to 2020, just before the pandemic started. I had just started a new position in a [unicorn startup](https://cabify.com/) where almost everyone was working from home, and one of the first things I noticed is that my manager used a _professional_ microphone. And a _professional_ headset. And he sounded crystal clear!
+
+On our first 1:1 I asked him what he was using and why. He explained me he was using a dedicated microphone and studio headphones because he wanted to hear and be heard as close as possible to reality. He literally said me: _I want $team_mate to hear me as if I was sitting with him in his room in Zamora_.
+
+Some days later I did my research and ordered some items to improve my audio setup.
+
+### Why
+
+There are many excellent articles covering audio and other aspects of videoconferencing (check the _Links_ section), but I'll explain why I decided to improve my audio setup in the context of a working from home environment.
+
+First of all, text and audio are our main interfaces to the rest of the world. Text is written and read by everyone exactly the same way (well, screen resolution would be another interesting topic!), and can be read and updated as many times as you want. If you don't understand a sentence or a word you can easily look up some words in a dictionary, go back to the text and maybe rewrite it if needed.
+
+Audio however needs a different consideration. In a meeting you have exactly one opportunity to get your message delivered to the rest of people in the call, and if your sound quality is too low then it will be difficult to get your colleagues engaged. Your messages might be dismissed because it is hard to understand them because you sound awfully bad.
+
+There are also lots of subtleties in people voices that get lost if sound quality is not good enough. The sound of your voice gets distorted and you sound like a robot, or as if you were speaking from inside a can.
+
+I want the sound I produce when I'm speaking to be very good, so my messages are clear and arrive to my colleagues ears with as many details as possible. And I want to be able to hear them with the highest possible fidelity. This is why I decided to upgrade my audio setup.
+
+But what if other colleagues use low quality headsets/microphones? Well, I cannot change that. I can only hope they notice the sound quality I produce when I speak, so they at least wonder if they could do something to improve theirs.
+
+### My current setup
+
+Improving audio quality is not that expensive, and in fact my setup is somehow cheap. I started with the following items:
+
+| Item | Description | Est. price |
+|------|------|-------------|------------|
+| [Behringer U-PHORIA UM2](https://www.behringer.com/product.html?modelCode=P0AVV) | Audio interface. Connects through USB and lets you connect an [XLR](https://en.wikipedia.org/wiki/XLR_connector) microphone. | 35 EUR |
+| [Behringer XM8500](https://www.behringer.com/behringer/product?modelCode=P0120) | It is an XLR dynamic microphone. As opposed to condenser microphones, it filters out external noises very well even in rooms that are not acoustically treated. | 16 EUR |
+| XLR cable (male-female)| Just that, a cable | 7 EUR |
+| Cheap microphone arm from Amazon | Random brand | 25 EUR |
+| [Sennheiser HD 599 SE](https://global.sennheiser-hearing.com/products/hd-599-se) | Open back headphones. They do not have studio quality, but they are very comfortable and sound great |
+
+With these items my sound quality dramatically improved. Several people call me _the podcasts guy_ because my microphone appears on the image, but I don't mind. They always compliment the quality of my sound, which is exactly what I was looking for.
+
+So long story short: If you work from home, upgrade your audio setup to improve your meetings!
+
+
+### Links
+
+- [How to make video calls almost as good as face-to-face](https://www.benkuhn.net/vc/) - Ben Kuhn
+- [Setting Up Your Webcam, Lights, and Audio for Remote Work, Podcasting, Videos, and Streaming](https://mattstauffer.com/blog/setting-up-your-webcam-lights-and-audio-for-remote-work-podcasting-videos-and-streaming/) - Matt Stauffer
+- [https://olivierlacan.com/posts/high-fidelity-remote-communication/](https://olivierlacan.com/posts/high-fidelity-remote-communication/) - Olivier Lacan
