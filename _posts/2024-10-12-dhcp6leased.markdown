@@ -51,8 +51,10 @@ The upgrade process in OpenBSD was very quick and painless, as usual. It only to
 After taking a look at the [dhcp6leased.conf(5)](https://man.openbsd.org/dhcp6leased.conf.5) man page, I was able to quickly write the following configuration file:
 
 ```
-request prefix delegation on pppoe0 for { igc3/56 }
+request prefix delegation on pppoe0 for { igc3/64 }
 ```
+
+**Updated 2024-12-04**: I noticed SLAAC was not working as expected in my machines. They were configuring themselves using a prefix that did not match the one the firewall was getting from the PPPoE connection. In the end, I found that SLAAC does not work with prefixes that are not `/64`, and also that [Amazon Echo devices send Router Advertisements](https://mastodon.social/@jorgelzpz/113448507526157269). I have updated the configuration file to use a `/64` prefix, even if my ISP assigns a `/56`.
 
 I commented out all lines related to `dhcpcd` in the `/etc/rc.conf.local` file, and then enabled `dhcp6leased`:
 
@@ -76,3 +78,23 @@ I was able to remove `dhcpcd` from the system and call it a day:
 # /usr/sbin/groupdel _dhcpcd
 ```
 
+
+### Configuring rad
+
+*Added on 2024-12-04*
+
+[rad(8)](https://man.openbsd.org/rad.8) is tasked with sending Router Advertisements in OpenBSD. I found that an [Amazon Echo device was sending RAs](https://mastodon.social/@jorgelzpz/113448507526157269), messing with the prefix my ISP assigned.
+
+I solved it by setting the router preference to _High_ in the `/etc/rad.conf` file:
+
+```
+interface igc3 {
+        default router yes
+        router preference high
+
+        dns {
+                nameserver fe80::1
+                search myhomedomain.home
+        }
+}
+```
