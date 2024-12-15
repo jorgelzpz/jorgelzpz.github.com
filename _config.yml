@@ -1,6 +1,7 @@
-name: Jorge López
-description: Simple things lover
-meta_description: "Jorge López. Infrastructure, DevOps, sysadmin, Linux, BSD, OpenBSD, Go, CI, CD"
+name: Jorge López Pérez
+title: Jorge López Pérez
+description: I like simple stuff
+meta_description: "Jorge López Pérez. Infrastructure, DevOps, sysadmin, Linux, BSD, OpenBSD, SRE"
 
 logo: true
 paginate: 5
@@ -13,7 +14,7 @@ github: https://github.com/jorgelzpz/
 
 # Details for the RSS feed generator
 url:            'http://jorgelp.com'
-author:         'Jorge López'
+author:         'Jorge López Pérez'
 email:          'jorge@jorgelp.com'
 
 
