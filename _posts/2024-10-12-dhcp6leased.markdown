@@ -12,7 +12,7 @@ It works fine, but it is not part of the base installation. It is not a very big
 
 Fortunately [OpenBSD 7.6](https://www.openbsd.org/76.html) ships with a new daemon in the base system called [dhcp6leased(8)](https://man.openbsd.org/dhcp6leased.8), which can be easily used to replace `dhcpcd`. Let me show you how I did it.
 
-### dhcpcd configuration
+## dhcpcd configuration
 
 My `dhcpcd` configuration looked like this:
 
@@ -42,11 +42,11 @@ It is the result of reading multiple guides and articles about `dhcpcd` and test
 
 The most important part of the configuration is the `interface` section. My Internet provider ([DIGI](https://www.digimobil.es/)) assigns every customer a `/56` IPv6 prefix which I propagate to the `igc3` interface. This interface is connected the rest of my local network, and [rad(8)](https://man.openbsd.org/rad.8) automatically advertises it to the rest of the clients connected to the network.
 
-### Upgrading to OpenBSD 7.6
+## Upgrading to OpenBSD 7.6
 
 The upgrade process in OpenBSD was very quick and painless, as usual. It only took around 5 minutes, and required no configuration changes at all.
 
-### Configuring dhcp6leased
+## Configuring dhcp6leased
 
 After taking a look at the [dhcp6leased.conf(5)](https://man.openbsd.org/dhcp6leased.conf.5) man page, I was able to quickly write the following configuration file:
 
@@ -79,7 +79,7 @@ I was able to remove `dhcpcd` from the system and call it a day:
 ```
 
 
-### Configuring rad
+## Configuring rad
 
 *Added on 2024-12-04*
 
