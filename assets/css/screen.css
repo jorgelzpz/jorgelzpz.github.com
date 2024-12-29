@@ -26,52 +26,26 @@
  * a. Colors
  * ========================================================================== */
 
-@media (prefers-color-scheme: light) {
-    :root {
-        --color-bg: #fff;
-        --color-fg: #3A4145;
-        --color-link: #183D3D;
-        --color-link-hover: #4A4A4A;
-        --color-borders: #E7EEF2;
-        --color-footer-border: #EBF2F6;
+:root {
+    --color-bg: light-dark(#fff, #040D12);
+    --color-fg: light-dark(#3A4145, #fff);
+    --color-link: light-dark(#183D3D, #93B1A6);
+    --color-link-hover: light-dark(#4A4A4A, #bbb);
+    --color-borders: light-dark(#E7EEF2, #444);
+    --color-footer-border: light-dark(#EBF2F6, #333);
 
-        --color-title-bg-start: #e1f5c4;
-        --color-title-fg: #000;
-        --color-title-description: #111;
+    --color-title-bg-start: light-dark(#e1f5c4, #182800);
+    --color-title-fg: light-dark(#000, #E1F5C4);
+    --color-title-description: light-dark(#111, #5C6E44);
 
-        --color-headings: #9dab89;
+    --color-headings: light-dark(#9dab89, #9dab89);
 
-        --color-subscribe-fg: #9EABB3;
-        --color-subscribe-bg: #000;
+    --color-subscribe-fg: light-dark(#9EABB3, #93B1A6);
+    --color-subscribe-bg: light-dark(#000, #183D3D);
 
-        --color-code-bg: #F7FAFB;
-        --color-code-border: #E3EDF3;
-    }
+    --color-code-bg: light-dark(#F7FAFB, #444);
+    --color-code-border: light-dark(#E3EDF3, #333);
 }
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --color-bg: #040D12;
-        --color-fg: #fff;
-        --color-link: #93B1A6;
-        --color-link-hover: #bbb;
-        --color-borders: #444;
-        --color-footer-border: #333;
-
-        --color-title-bg-start: #182800;
-        --color-title-fg: #E1F5C4;
-        --color-title-description: #5C6E44;
-
-        --color-headings: #9dab89;
-
-        --color-subscribe-fg: #93B1A6;
-        --color-subscribe-bg: #183D3D;
-
-        --color-code-bg: #444;
-        --color-code-border: #333;
-    }
-}
-
 
 /* ==========================================================================
    0. Normalize.css v2.1.3 | MIT License | git.io/normalize | (minified)
@@ -443,10 +417,10 @@ table td {
     line-height: 20px;
     text-align: left;
     vertical-align: top;
-    border-top: #EFEFEF 1px solid;
+    border-top: var(--color-code-border) 1px solid;
 }
 
-table th { color: #000; }
+table th { color: var(--color-fg); }
 
 table caption + thead tr:first-child th,
 table caption + thead tr:first-child td,
@@ -463,7 +437,7 @@ table table table { background-color: #FFF; }
 
 table tbody > tr:nth-child(odd) > td,
 table tbody > tr:nth-child(odd) > th {
-    background-color: #F6F6F6;
+    background-color: var(--color-code-bg);
 }
 
 table.plain tbody > tr:nth-child(odd) > td,
