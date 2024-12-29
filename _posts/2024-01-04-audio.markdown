@@ -45,13 +45,11 @@ But what if other colleagues use low quality headsets/microphones? Well, I canno
 
 Improving audio quality is not that expensive, and in fact my setup is somehow cheap. I started with the following items:
 
-| Item | Description | Est. price |
-|------|------|-------------|------------|
-| [Behringer U-PHORIA UM2](https://www.behringer.com/product.html?modelCode=P0AVV) | Audio interface. Connects through USB and lets you connect an [XLR](https://en.wikipedia.org/wiki/XLR_connector) microphone. | 35 EUR |
-| [Behringer XM8500](https://www.behringer.com/behringer/product?modelCode=P0120) | It is an XLR dynamic microphone. As opposed to condenser microphones, it filters out external noises very well even in rooms that are not acoustically treated. | 16 EUR |
-| XLR cable (male-female)| Just that, a cable | 7 EUR |
-| Cheap microphone arm from Amazon | Random brand | 25 EUR |
-| [Sennheiser HD 599 SE](https://global.sennheiser-hearing.com/products/hd-599-se) | Open back headphones. They do not have studio quality, but they are very comfortable and sound great |
+- [Behringer U-PHORIA UM2](https://www.behringer.com/product.html?modelCode=P0AVV): Audio interface. Connects through USB and lets you connect an [XLR](https://en.wikipedia.org/wiki/XLR_connector) microphone. Estimated cost: 35&euro;
+- [Behringer XM8500](https://www.behringer.com/behringer/product?modelCode=P0120): It is an XLR dynamic microphone. As opposed to condenser microphones, it filters out external noises very well even in rooms that are not acoustically treated. Estimated cost: 16&euro;
+- XLR cable (male-female): Just that, a cable. Estimated cost: 7&euro;
+- Cheap microphone arm from Amazon: Random brand. Estimated cost: 25&euro;
+- [Sennheiser HD 599 SE](https://global.sennheiser-hearing.com/products/hd-599-se): Open back headphones. They do not have studio quality, but they are very comfortable and sound great. Estimated cost: 150&euro;
 
 With these items my sound quality dramatically improved. Several people call me _the podcasts guy_ because my microphone appears on the image, but I don't mind. They always compliment the quality of my sound, which is exactly what I was looking for.
 
